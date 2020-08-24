@@ -1,0 +1,35 @@
+#cabecera{
+
+    background-color: aquamarine;
+ 
+}
+
+h1{
+    color: rgb(13, 38, 39);
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+}
+
+div{
+    width: 70%;
+    margin: 0 auto;
+}
+body{
+    background-image: url("anio90.jpg");
+}
+
+.bloque{
+    background-color: orange;
+}
+h4{
+    color: rgb(70, 29, 29);
+}
+#romanos{
+    list-style: lower-roman;
+}
+#alpha{
+    list-style: lower-alpha;
+}

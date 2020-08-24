@@ -1,0 +1,61 @@
+div{
+    width: 90%;
+    margin: 0 auto;
+}
+
+h1{
+
+    text-align: center;
+}
+
+.contenedor{
+    border-style: dotted;
+    
+    border-color: black;
+    background-color: rgb(240, 215, 203);
+    width: 90%;
+    height: auto;
+  clear: both;
+  display: table;
+
+}
+#datosPersonales{
+    float:left;
+    margin-top: 30px;
+    width: 70%;
+    margin-left: 30px;
+}
+img{
+    float: right;
+    width: 13%;
+    height: 13%;
+    margin:30px;
+   
+    border-radius: 50%;
+    background-color:red;
+}
+.arriba{
+    background-color:red;
+}
+#datosPersonales ul{
+   list-style: none;
+}
+.aficion{
+    clear: both;
+  display: table;
+  background-color:rgb(204, 104, 104);
+  width: 70%;
+  margin-bottom: 20px;
+
+}
+
+.descrip{
+    float:left;
+    margin-top: 30px;
+
+    width: 60%;
+}
+
+p{
+    margin-left: 10px;
+}

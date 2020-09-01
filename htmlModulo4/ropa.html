@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="ropa.css">
+    <link rel="icon" type="image/jpg" href="logo.png" sizes="16x16">
+    <title>Mendoza</title>
+
+    <script src="javascript.js">
+
+    </script>
+
+</head>
+<body>
+  
+       <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"><img class="logo" src="logo2.png" alt=""> </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">MUJER <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">TRF <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">HOMBRE <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">NIÑOS <span class="sr-only">(current)</span></a>
+                </li>
+
+            </div>
+          </nav>
+
+       </header>
+
+        <div class="contenido">
+  
+            
+            <div class="row">
+                <div class=" col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 "> 
+               
+                    <div class="card" style="width: 18rem;">
+                        <img src="vestido1.jpg" class="card-img-top" alt="vestido azul">
+                        <div class="card-body">
+                          <h5 class="card-title"><label id="nombre1"></label> <label id="precio1"></label>€</h5>
+                          <p class="card-text"><label id="nom1"></label> . Puro Algodon</p>
+                          <button id="anadir1" type="button" class="btn btn-primary" onclick="insertarDato('1')" value="Añadir">Añadir</button>
+                          <button type="button" class="btn btn-default  material-icons" onclick="insertarDato('1')">check_circle_outline</button>
+                          <button type="button" class="btn btn-default  material-icons" onclick="eliminarDato('1')">remove_circle_outline</button>
+                        </div>
+                      </div>
+    
+                </div>
+                <div class=" col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 "> 
+                    
+                    <div class="card" style="width: 18rem;">
+                        <img src="vestido2.jpg" class="card-img-top" alt="vestido blanco">
+                        <div class="card-body">
+                          <h5 class="card-title"><label id="nombre2"></label> <label id="precio2"></label>€</h5>
+                          <p class="card-text" ><label id="nom2"></label>. Poliester</p>
+                          <button id="anadir2" type="button" class="btn btn-primary"  onclick="insertarDato('2')">Añadir</button>
+                          <button type="button" class="btn btn-default  material-icons" onclick="insertarDato('2')">check_circle_outline</button>
+                          <button type="button" class="btn btn-default  material-icons" onclick="eliminarDato('2')">remove_circle_outline</button>
+                        </div>
+                      </div>
+    
+                </div>
+                <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 "> 
+                    <div class="mostrar">
+                         <h4><u>Carrito</u></h4>
+                         <br> <br>
+                        <label> Cantidad: <label id="cantidad"></label> </label> 
+                        <br> <br>
+                        <label> Total: <label id="total"></label> </label> 
+                        <br> <br>
+                        <div id="prenda"></div>
+                    </div>
+                </div>        
+    
+            </div>    
+           
+        </div>
+        <footer>
+            <div class=" col-8 col-sm-8 col-md-8 col-lg-8 col-xl-8 ">
+                <nav>
+                    <a class="alinear" href="/html/">INFORMACIÓN</a>
+                    <a class="alinear" href="/css/">AYUDA</a>
+                    <a class="alinear" href="/js/">PRENSA</a>
+                    <a class="alinear" href="/python/"> API</a>
+                    <a class="alinear" href="/js/">EMPLEO</a>
+                    <a class="alinear" href="/python/">PRIVACIDAD</a>
+            
+                </nav>
+            </div>
+            <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 "> 
+
+            </div>     
+        </footer>
+
+    
+    
+</body>
+</html>

@@ -1,0 +1,33 @@
+body { 
+    margin: 0; 
+    padding: 0; 
+    height: 100%;
+     background-color: #f1f1f1;
+}
+
+.alinear{
+    width: 50%;
+    margin:0 auto;
+    margin-top: 20px;
+    height:100%;
+    padding: 50px;
+}
+.bloque1{
+  width: 80%;
+  height: 80%;
+  padding: 10%;
+  background-color: blue;
+}
+.bloque2{
+    width: 80%;
+    height: 80%;
+    padding: 10%;
+    background-color:yellow;
+  }
+  .bloque3{
+    width: 80%;
+    height: 80%;
+    padding: 10%;
+    background-color: green;
+  }
+  

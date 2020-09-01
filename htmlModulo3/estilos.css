@@ -1,0 +1,294 @@
+
+body { 
+    margin: 0; 
+    padding: 0; 
+    height: 100%;
+     background-color: #f1f1f1;
+}
+section{
+    width: 80%;
+    margin:0 auto;
+
+}
+
+.contenedor1{
+    width: 350px;
+    height: 380px;
+    margin:0 auto;
+    margin-top:20px;
+    position: relative;  
+    background-color:white;
+   
+}
+.contenedor2{
+    width: 350px;
+    height: 63px;
+    margin:0 auto;
+    margin-top: 10px;
+    position: relative;  
+    background-color:white;
+   
+}
+.contenedor3{
+    width: 350px;
+    height: 102px;
+    margin:0 auto;
+    margin-top: 10px;
+    position: relative;  
+    background-color: #f1f1f1;
+   
+}
+
+
+footer{
+    color:#999;
+    background-color:#FFF;
+    height:5%;
+    margin:0px;
+
+}
+
+.articulo{
+    width: 100%;
+    max-width: 935px;
+    margin:0 auto;
+    height: 90%;
+    margin-top:20px;
+   
+}
+article{
+    height: 90%;
+    padding-bottom: 4%;
+}
+
+.nombre{
+    margin:0 auto;   
+    width: 70%;
+    height: 23%;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.formulario{
+    height: 77%;
+  
+}
+.texto{
+    width: 78%;
+    height: 30%;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 7px;
+    padding-bottom: 10px;
+    padding-top:10px;
+    border-radius: 4px;
+}
+.bloque{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+  flex-direction: column;
+  
+}
+.s311c{
+
+    background-color: rgba(var(--b38,219,219,219),1);
+    height: 1px;
+    width: 50%;
+    margin-top: 6px;
+    
+}
+
+.olinea{
+  
+    color: rgba(var(--b38,219,219,219),1);
+    height: 1;
+    font-size: 13px;
+    line-height: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+    
+    text-transform: uppercase;
+}
+.bloque1{
+    margin:10px 40px 8px;
+    display: inline-flex;
+}
+button{
+    background-color: rgba(var(--d69,0,149,246),.3);
+    border: 1px solid transparent;
+    opacity: 1;
+    color: white;
+    font: inherit;
+    border-radius: 4px;
+    
+}
+.boton{
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 7px;
+    padding-bottom: 15px;
+    padding-top:15px;
+    width: 80%;
+    height: 30%;
+    text-align: center;
+   
+}
+a:link, a:visited, a:active {
+    text-decoration:none;
+    color: #385185;
+}
+a{
+    margin: 0 auto;
+    text-align: center;
+}
+.parrafo{
+    
+    width: 70%;
+    height: 30%;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-left: 20px;
+   
+}
+p{
+    text-align: center;
+}
+.imagen{
+    width: 45%;
+    height: 50%;
+    margin-left: 10px;
+}
+.bloqueImagen{
+    display: flex;
+}
+
+.navegador{
+    position: absolute;
+    font-size: 17px;   
+    margin-bottom: 10px;
+   
+}
+nav{
+    position: relative;      
+}
+.alinear{
+    margin-right: 16px;
+    margin-left: 25px;
+    color: rgba(var(--fe0,0,55,107),1);
+    font: inherit;
+    text-transform: uppercase;
+    font-size: 16px;
+  }
+
+  /**************** Perfil*****************/
+.menu{
+    background-color:white;
+}
+.arriba{
+    display: inline-flex;
+    width: 100%;
+    height: 15%;
+    background-color:white;
+    border-bottom:1px solid black;
+}
+.fila{
+   
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 32%;
+}
+
+.abajo{
+    width: 100%;
+    height: 80%;
+    
+}
+.imagenN{
+    width: 35%;
+    height: 50px;
+    
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.imagenP{
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    margin-bottom: 12px;
+}
+input{
+   text-align: center;
+   
+}
+.icons{
+    float: right;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+i{
+    margin-left: 5px;
+    margin-right: 5px; 
+}
+.abajo{
+  width: 90%;
+  height:50%;
+  margin: 0 auto;
+  margin-top:2%;
+  margin-bottom:2%;
+
+  
+}
+
+.imagen{
+    width: 70%;
+    height: 70%;
+    margin:30px;
+    border-radius: 50%;
+
+}
+
+
+
+.col-4{
+   width: 30% !important; 
+   height: 80%;
+
+}  
+.caja6{
+    width: 90%;
+    height: 80%;
+ }
+ 
+
+ .letra{
+     font-size: 20px;
+ }
+
+ div .zoom:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+div  .zoom .imagen img {
+	-webkit-transform: scale(2);
+	transform: scale(2);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.profile{
+    border-radius: 4px;
+    color: black;
+    background-color: white;
+    border:1px solid rgb(170, 164, 164);
+}
+
+.brightness_5{
+    margin: 0 auto;
+    margin-right: 10px;
+
+}
+.box{
+    border-top:1px solid black;
+}
